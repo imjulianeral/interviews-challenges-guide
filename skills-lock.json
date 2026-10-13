@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "skills": {
+    "migrate-oxfmt": {
+      "source": "oxc-project/oxc",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/migrate-oxfmt/SKILL.md",
+      "computedHash": "48fb5c1edd8f29802ac69fae5d278cf652d520ee1a51032c9d0617212a5baba8"
+    },
+    "migrate-oxlint": {
+      "source": "oxc-project/oxc",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/migrate-oxlint/SKILL.md",
+      "computedHash": "7bc6dccdcc557cdb7d887fc16c6632e685b13860d202b9c9ce5da7504f0dbe18"
+    },
+    "nub": {
+      "source": "nubjs/nub",
+      "sourceType": "github",
+      "skillPath": "skills/nub/SKILL.md",
+      "computedHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "ultracite": {
+      "source": "haydenbleasel/ultracite",
+      "sourceType": "github",
+      "skillPath": "skills/ultracite/SKILL.md",
+      "computedHash": "a97df1e37bd2025efc378aa7881dd2ea510bf6d599bf92dee1ace2ecf174866c"
+    }
+  }
+}

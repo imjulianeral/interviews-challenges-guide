@@ -1,0 +1,31 @@
+{
+  "name": "interviews",
+  "private": true,
+  "workspaces": [
+    "challenges/dsa",
+    "challenges/react/*"
+  ],
+  "type": "module",
+  "scripts": {
+    "test": "nub run -r --if-present test",
+    "typecheck": "nub run -r --if-present typecheck",
+    "check": "ultracite check",
+    "fix": "ultracite fix",
+    "lint": "oxlint",
+    "fmt": "oxfmt",
+    "fmt:check": "oxfmt --check",
+    "build": "nub run -r --if-present build"
+  },
+  "devDependencies": {
+    "oxfmt": "^0.72.0",
+    "oxlint": "^1.87.0",
+    "ultracite": "^8.0.0"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "nub",
+      "version": "^0.9.6",
+      "onFail": "ignore"
+    }
+  }
+}
